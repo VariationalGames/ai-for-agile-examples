@@ -25,6 +25,8 @@ The layout mirrors the project the files come from, so what you see on screen in
 find here.
 
 - `CLAUDE.md`: the project-wide standing prompt, loaded on every command.
+- `personal-CLAUDE.md`: one person's own standing prompt. In real life it lives at `~/.claude/CLAUDE.md`,
+  outside any repository; it is here so you can see the two side by side.
 - `.claude/skills/`: the skills, one directory each. A skill is a written process for one kind of work,
   loaded only while that work is happening.
 - `doc/`: example documents the skills produce, such as functional and technical specifications.
